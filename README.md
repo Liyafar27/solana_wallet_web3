@@ -36,13 +36,12 @@ Secure onboarding with phrase verification to protect user funds.
 <p align="center">
     <img src="https://raw.githubusercontent.com/Liyafar27/my_storage/refs/heads/master/Simulator%20Screenshot%20-%20iPhone%20SE%20(3rd%20generation)%20-%202025-04-08%20at%2017.23.02.png" width="250" alt="accessibility text">  
     <img src="https://raw.githubusercontent.com/Liyafar27/my_storage/refs/heads/master/Simulator%20Screenshot%20-%20iPhone%20SE%20(3rd%20generation)%20-%202025-04-08%20at%2017.23.24.png" width="250" alt="accessibility text">
-        <img src="https://raw.githubusercontent.com/Liyafar27/my_storage/refs/heads/master/Simulator%20Screenshot%20-%20iPhone%20SE%20(3rd%20generation)%20-%202025-04-08%20at%2017.23.45.png
-)" width="250" alt="accessibility text">
+        <img src="https://raw.githubusercontent.com/Liyafar27/my_storage/refs/heads/master/Simulator%20Screenshot%20-%20iPhone%20SE%20(3rd%20generation)%20-%202025-04-08%20at%2017.23.45.png" width="250" alt="accessibility text">
 
  <p align="center">
-    <img src="https://raw.githubusercontent.com/Liyafar27/homePC/master/Screenshot_20211126-080303.png" width="250" alt="accessibility text">  
-    <img src="https://raw.githubusercontent.com/Liyafar27/homePC/master/Screenshot_20211126-080312.png" width="250" alt="accessibility text">
-
+    <img src="https://raw.githubusercontent.com/Liyafar27/my_storage/refs/heads/master/Simulator%20Screenshot%20-%20iPhone%20SE%20(3rd%20generation)%20-%202025-04-08%20at%2017.25.23.png" width="250" alt="accessibility text">  
+    <img src="https://raw.githubusercontent.com/Liyafar27/my_storage/refs/heads/master/Simulator%20Screenshot%20-%20iPhone%20SE%20(3rd%20generation)%20-%202025-04-08%20at%2017.27.29.png" width="250" alt="accessibility text">
+ <img src="https://raw.githubusercontent.com/Liyafar27/my_storage/refs/heads/master/Simulator%20Screenshot%20-%20iPhone%20SE%20(3rd%20generation)%20-%202025-04-08%20at%2017.27.55.png" width="250" alt="accessibility text">
 🚀 Getting Started
 bash
 ```
