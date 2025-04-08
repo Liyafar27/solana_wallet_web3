@@ -45,7 +45,7 @@ Secure onboarding with phrase verification to protect user funds.
 🚀 Getting Started
 bash
 ```
-git clone https://github.com/yourusername/solana-wallet-app.git
+git clone [https://github.com/yourusername/solana-wallet-app](https://github.com/Liyafar27/solana_wallet_web3.git
 cd solana-wallet-app
 flutter pub get
 flutter run
