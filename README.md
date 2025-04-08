@@ -34,13 +34,23 @@ Secure onboarding with phrase verification to protect user funds.
 
 📸 Screenshots
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Liyafar27/homePC/master/Screenshot_20211126-080440.png" width="250" alt="accessibility text">  
+    <img src="https://raw.githubusercontent.com/Liyafar27/homePC/master/Screenshot_20211126-080451.png" width="250" alt="accessibility text">
+
+ <p align="center">
+    <img src="https://raw.githubusercontent.com/Liyafar27/homePC/master/Screenshot_20211126-080303.png" width="250" alt="accessibility text">  
+    <img src="https://raw.githubusercontent.com/Liyafar27/homePC/master/Screenshot_20211126-080312.png" width="250" alt="accessibility text">
+
 🚀 Getting Started
 bash
-
+```
 git clone https://github.com/yourusername/solana-wallet-app.git
 cd solana-wallet-app
 flutter pub get
 flutter run
+```
+
 You’ll need a Phantom-compatible Solana devnet wallet and optionally set up your own RPC endpoint.
 
 🛡️ Disclaimer
