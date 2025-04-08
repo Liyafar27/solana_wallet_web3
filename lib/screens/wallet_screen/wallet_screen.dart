@@ -61,7 +61,7 @@ class _WalletScreenState extends State<WalletScreen> {
   Widget _buildWalletUI(BuildContext context, WalletConnected state) {
     final wallet = state.wallet;
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      if (state is WalletConnected && state.mnemonic != null && !_dialogShown) {
+      if (state.mnemonic != null && !_dialogShown) {
         _dialogShown = true; // чтобы не показывать снова при rebuild
 
         showDialog(
@@ -119,8 +119,6 @@ class _WalletScreenState extends State<WalletScreen> {
                       color: Colors.blue),
                 ),
                 const SizedBox(height: 16),
-                _buildSwapButton(context),
-                const SizedBox(height: 16),
                 // SwapWidget(swapBloc: context.read<WalletBloc>())
               ],
             ),
@@ -147,28 +145,6 @@ class _WalletScreenState extends State<WalletScreen> {
     );
   }
 
-  Widget _buildSwapButton(BuildContext context) {
-    return SizedBox(
-      width: double.infinity,
-      child: ElevatedButton(
-        style: ElevatedButton.styleFrom(
-          padding: const EdgeInsets.symmetric(vertical: 14),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(12),
-          ),
-          backgroundColor: Colors.blueAccent,
-          foregroundColor: Colors.white,
-        ),
-        onPressed: () {
-          context.read<WalletBloc>().add(const SwapSolToUsdt(0.01));
-        },
-        child: const Text(
-          "🔄 Обменять 1 SOL на USDC",
-          style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
-        ),
-      ),
-    );
-  }
 
   Widget _buildStartUI(BuildContext context) {
     return Center(
