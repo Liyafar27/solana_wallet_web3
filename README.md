@@ -1,4 +1,4 @@
-🧿 Solana Wallet App — Flutter + Web3
+## 🧿 Solana Wallet App — Flutter + Web3
 A modern crypto wallet built with Flutter and Solana.
 Easily view charts, manage wallets, swap tokens, and track transactions — all in one smooth mobile experience.
 
