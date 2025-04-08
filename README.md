@@ -20,16 +20,15 @@ Secure onboarding with phrase verification to protect user funds.
 
 
 🔧 Dependencies & Tech Highlights
-Type	         Package	                             Description
-🧠 State Mgmt	flutter_bloc, equatable	                 Clean reactive architecture with BLoC
-🛠 Codegen	    freezed, json_serializable, build_runner Data classes, unions, and serialization
-💾  Storage  	flutter_secure_storage	                 Secure storage of wallet data
-🧮 Charts	    fl_chart, syncfusion_flutter_charts      Candlestick & line chart support
-🌐 Networking	dio, convert, intl, crypto	             API calls, formatting, hashing
-🌍 Routing	    go_router	                             Declarative navigation
-🧩 UI	        flutter_svg, cupertino_icons	         Icons and SVGs
-🔗 Web3 & Solana solana, solana_web3, ed25519_hd_key,
-                  bs58, pinenacl	                     Wallets, signing, base58, HD key derivation
+Type	Package	Description
+🧠 State Mgmt	flutter_bloc, equatable	Clean, reactive architecture using the BLoC pattern.
+🛠 Codegen	freezed, json_serializable, build_runner	Generate data classes, unions, and handle serialization.
+💾 Storage	flutter_secure_storage	Secure storage of wallet data.
+🧮 Charts	fl_chart, syncfusion_flutter_charts	Supports Candlestick and line charts.
+🌐 Networking	dio, convert, intl, crypto	API calls, formatting, and cryptographic operations.
+🌍 Routing	go_router	Declarative routing for better navigation management.
+🧩 UI	flutter_svg, cupertino_icons	Icons and SVGs for a rich user interface.
+🔗 Web3 & Solana	solana, solana_web3, ed25519_hd_key, bs58, pinenacl	Solana wallet management, signing, base58 encoding, and HD key derivation.
 
 
 📸 Screenshots
