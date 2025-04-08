@@ -1,16 +1,57 @@
-# sol_fib_bot
+🧿 Solana Wallet App — Flutter + Web3
+A modern crypto wallet built with Flutter and Solana.
+Easily view charts, manage wallets, swap tokens, and track transactions — all in one smooth mobile experience.
 
-A new Flutter project.
+✨ Features
+📊 Live Crypto Chart
+Realtime price chart for SOL/USDT with candlesticks.
 
-## Getting Started
+🔐 Create / Restore Wallet
+Generate a new Solana wallet with 12-word mnemonic or restore an existing one.
 
-This project is a starting point for a Flutter application.
+💱 Token Swap (SOL ⇄ USDT)
+Instantly swap between SOL and USDT via on-chain logic.
 
-A few resources to get you started if this is your first Flutter project:
+📜 Transaction History
+View past transactions, with full detail and token transfers.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ Mnemonic Confirmation Flow
+Secure onboarding with phrase verification to protect user funds.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+🔧 Dependencies & Tech Highlights
+Type	         Package	                             Description
+🧠 State Mgmt	flutter_bloc, equatable	                 Clean reactive architecture with BLoC
+🛠 Codegen	    freezed, json_serializable, build_runner Data classes, unions, and serialization
+💾  Storage  	flutter_secure_storage	                 Secure storage of wallet data
+🧮 Charts	    fl_chart, syncfusion_flutter_charts      Candlestick & line chart support
+🌐 Networking	dio, convert, intl, crypto	             API calls, formatting, hashing
+🌍 Routing	    go_router	                             Declarative navigation
+🧩 UI	        flutter_svg, cupertino_icons	         Icons and SVGs
+🔗 Web3 & Solana solana, solana_web3, ed25519_hd_key,
+                  bs58, pinenacl	                     Wallets, signing, base58, HD key derivation
+
+
+📸 Screenshots
+
+🚀 Getting Started
+bash
+
+git clone https://github.com/yourusername/solana-wallet-app.git
+cd solana-wallet-app
+flutter pub get
+flutter run
+You’ll need a Phantom-compatible Solana devnet wallet and optionally set up your own RPC endpoint.
+
+🛡️ Disclaimer
+This project is for educational purposes only.
+Always test with Solana devnet before using on mainnet.
+## 🔒 Security & Privacy
+
+This app is 100% self-custodial:
+- The mnemonic phrase and private keys are generated and stored **only in memory**.
+- Nothing sensitive is sent over the network.
+- Users are responsible for backing up their wallet securely.
+- All transactions are signed locally.
+
+We never store or transmit private keys or mnemonics.
